@@ -29,9 +29,6 @@ public class OuraController {
 
         HttpEntity<String> entity = new HttpEntity<>(headers);
 
-        // Make the API request
-
-        // Return the API response
         return restTemplate.exchange(url, HttpMethod.GET, entity, String.class);
     }
 }
