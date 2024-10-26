@@ -1,0 +1,4 @@
+oura:
+  api:
+    base-url: https://api.ouraring.com/v2
+    token: YOUR_OURA_PERSONAL_ACCESS_TOKEN
